@@ -1,3 +1,6 @@
+[![Go Documentation](http://godoc.org/github.com/raff/fuzzies?status.svg)](http://godoc.org/github.com/raff/fuzzies)
+[![Go Report Card](https://goreportcard.com/badge/github.com/raff/fuzzies)](https://goreportcard.com/report/github.com/raff/fuzzies)
+
 # fuzzies
 A package for "fuzzy" string operations (string compare, index, contains)
 
