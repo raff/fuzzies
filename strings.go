@@ -35,6 +35,10 @@ func (f *Fuzzies) Index(s, substr string) int {
 	pos := -1
 	mind := f.MinDistance
 
+	if mind > (lsub+1)/2 {
+		mind = (lsub + 1) / 2
+	}
+
 	for i := 0; i < (ls - lsub + 1); i++ {
 		d := Levenshtein(substr, s[i:i+lsub])
 		if d < mind {
